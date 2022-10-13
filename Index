@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="da">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css2?family=Crushed&display=swap" rel="stylesheet">
+
+<title>Hjernekvaler</title>
+    </head> 
+
+<!----Header---->
+    <div class="header">
+
+        <a href="index.html" class="logo">Hjernekvaler</a>
+        <div class="header-right">
+
+
+           <!--MENU-->
+           <div class="full_nav_wrap">
+            <nav id="primary_nav_wrap">
+                <ul>
+
+                   <!--Link med dropdown-->
+                    <li>
+                    <a href="" class="active">Artikler</a>
+                        <ul>
+                            <li><a href="anbefal.html">Hjernekvaler Anbefaler</a></li>
+                            <li><a href="mindful.html">Mindfulness - How to?</a></li>
+                        </ul>
+                    </li>  
+                    <!--Link uden dropdown-->
+                    <li><a href="brevkasse.html">Brevkasse</a></li>
+                    <li><a href="historie.html">Månedens historie</a></li>
+                    <li><a href="omos.html">Om os</a></li>
+
+                </ul>
+            </nav>
+        </div> 
+     </div>
+  </div>
+
+<!----Hr linjer---->
+  <hr class="hr1">
+
+<!----Forsideindhold---->
+<a href="anbefal.html">
+    <img src="/Endeligebilleder/Hjernekvaleranbefaler.jpg" class="anbefalinger" alt="forsideanbefalinger">
+        </a>
+        
+    <div class="rightcolumn">
+      <div class="card">
+        <h2 class="h2">Find os på</h2>
+        <a href="https://www.facebook.com/">
+        <img src="SoMeiconer/fb.png" class="someicon" alt="facebookikon"></a>
+
+        <a href="https://instagram.com/">
+        <img src="SoMeiconer/instagram.png" class="someicon" alt="instagramikon"></a>
+
+        <a href="https://twitter.com/">
+        <img src="SoMeiconer/twitter.png" class="someicon" alt="twitterikon"></a>
+
+        <a href="https://www.pinterest.com/">
+        <img src="SoMeiconer/pinterest.png" class="someicon" alt="pinterestikon"></a>
+        <img src="Endeligebilleder/phone.jpeg" class="phone" alt="telefonsome">
+      </div>
+    </div>
+
+<a href="mindful.html">
+    <img src="Endeligebilleder/Mindfulnesshowto.jpg" class="mindfulness" alt="forsidemindfulness">
+        </a>
+
+
+<hr class="hr2">
+
+<footer>
+    <p class="footer">Copyright &copy; Hjernekvaler.dk</p>
+</footer>
+
+
+</body>
+</html>
