@@ -1,0 +1,555 @@
+@font-face {
+    font-family: Herkules;
+    src: url(Fonts/Herkules.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* ------------------Body------------------ */ 
+body {
+    background-image: url(background.jpg);
+    font-family: Arial;
+    padding: 20px;
+}
+
+.hr1 {
+    border-style: solid;
+    height: 0,5px;
+    width: 100%;
+    color: #252525;
+    border-top: 9px;
+}
+
+
+.hr2 {
+    border-style: solid;
+    height: 0.1px;
+    width: 100%;
+    color: #252525;
+    border-top: 9px;
+}
+
+
+
+
+/* ------------------Dropdown Menu i Header------------------ */
+#primary_nav_wrap {
+    float: right;
+    z-index: 200 !important;
+    width: 100%;
+}
+#primary_nav_wrap ul {
+    list-style:none;
+    position:relative;
+    float:right;
+    margin:0;
+    padding:0;
+}
+#primary_nav_wrap ul a {
+    display:block;
+    color: #252525;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 27px; 
+    font-family: Herkules;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#primary_nav_wrap ul a:hover {
+    color: white;
+}
+
+#primary_nav_wrap ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0px;
+}
+#primary_nav_wrap ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0
+}
+#primary_nav_wrap ul ul li {
+    float:none;
+    width:150px;
+}
+#primary_nav_wrap ul ul a {
+    line-height: 33px;
+    padding:6px 10px;
+    height: 45px;
+    font-size: 20px;
+    color: black;
+    background-color: #ffffff;
+    width:200px;
+    transition: 0.3s;
+}
+#primary_nav_wrap ul ul ul {
+    top:0;
+    left:100%
+}
+#primary_nav_wrap ul li:hover > ul {
+    display:block;
+}
+#primary_nav_wrap ul ul a:hover {
+    background-color: #FAF4EE;
+    color: #252525 !important;
+    width: 200px;
+    margin-left: 5px;
+}
+#header-bottom-right {
+    float: right;
+    width: 120px;
+    height: 50px;
+}
+#rightStyleShow {
+    float: right !important;
+}
+
+
+
+
+
+/* ------------------Header------------------ */
+.header {
+    background-image: url();
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: #252525;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 27px; 
+    font-family: Herkules;
+    line-height: 25px;
+    border-radius: 4px;
+   
+  }
+  
+  .header a.logo {
+    font-size: 50px;
+    font-weight: normal;
+    font-family: Herkules;
+    color: #252525;
+  }
+  
+  .header a:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .header a.active {
+    background-color: transparent;
+    color: white 
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+
+
+
+/* ------------------Billeder------------------ */ 
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+  }
+  
+.anbefalinger {
+    float: right;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+.anbefalinger:hover {
+    transform: translateX(-10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out; 
+}
+
+.mindfulness {
+    float: left;
+    padding: 20px;
+    margin-top: -50px;
+    margin-left: -40px;
+    margin-left: -15px;
+    margin-bottom: px;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+.mindfulness:hover {
+    transform: translateX(10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out; 
+}
+
+.phone {
+    height: 220px;
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.omoslogo {
+    height: 120px;
+    width: 550px;
+    margin-left: 450px;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+.omoslogo:hover{
+    transform: translateX(-10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out;     
+}
+
+.forfattere {
+    margin-top: 320px;
+    margin-left: 400px;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+.forfattere:hover {
+    transform: translateX(-10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out; 
+}
+
+
+
+
+
+
+
+/* ------------------Card------------------ */
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+  }
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    padding: 20px;
+    margin-top: 40px;
+    background-image: url(somebaggrund.png);
+    height: 401px;
+    width: 240px;
+  }
+
+  
+  h2 {
+    font-family: Herkules;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+    color: #252525;
+}
+
+
+
+
+
+/* ------------------SoMe icons------------------ */
+.someicon {
+    height: 35px;
+    width: 35px;
+    display: inline;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+
+/* ------------------Om os------------------ */
+.omostekst {
+    border-radius: 100px;
+    background-color: #efeada;
+    color: #252525;
+    padding: 10px;
+    padding-top: 0px;
+    margin-bottom: -290px;
+    margin-left: 310px;
+    text-align: center;
+    width: 800px;
+    height: 300px;
+    font-size: 22px;
+    font-family: crushed;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+.omostekst p {
+    padding-top: 10px;
+}
+
+.omostekst:hover {
+    transform: translateX(10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out;     
+}
+
+.spanomos {
+    background-color: #daa500;
+}
+
+
+
+
+/* ------------------Brevkasse------------------ */
+.brevlogo {
+  position: relative;
+  margin-top: 20px; 
+  margin-left: 350px; 
+  z-index: -2;
+}
+
+.brevtekst {
+    font-family: crushed;
+    font-size: 21px;
+    color: #252525;
+    position: absolute;
+    margin-left: 387px;
+    margin-top: 70px;
+    width: 745px;
+    line-height: 1.5;
+}
+
+.brevsvar {
+    font-family: crushed;
+    font-size: 22px;
+    color: #252525;
+    margin-left: 387px;
+    width: 700px;
+    position: absolute;
+    z-index: 1;
+    line-height: 1.5;
+}
+
+.brevsvarlogo {
+    position: relative;
+    margin-left: 362px;
+    width: 770px;
+    height: 1200px;
+}
+
+
+/* ------------------Hjernekvaler anbefaler------------------ */
+.forfatterEG {
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+
+.forfatterEG:hover {
+    transform: translateX(-10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out; 
+}
+
+.anbefalertekst {
+    font-family: crushed;
+    font-size: 22px;
+    color: #252525;
+    line-height: 1.5;
+
+    background-color: #efeada;
+    border: solid;
+    border-color: #FAF4EE;
+    border-radius: 25px;
+    width: 900px;
+    margin-left: 280px;
+    margin-top: 30px;
+    padding: 10px;   
+}
+
+.spanoverskrift {
+    font-size: 30px;
+    font-family: Herkules;
+    color: #5A8835;
+}
+
+.span1 {
+    font-size: 25px;
+    font-family: Herkules;
+    color: #5A8835;
+}
+.span2 {
+    font-size: 25px;
+    font-family: Herkules;
+    color: #5A8835;  
+}
+.span3 {
+    font-size: 25px;
+    font-family: Herkules;
+    color: #5A8835;  
+}
+
+
+
+/* ------------------Månedens historie------------------ */
+.forfatterCP {
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+
+.forfatterCP:hover {
+    transform: translateX(-10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out; 
+}
+
+.historietekst {
+    font-family: crushed;
+    font-size: 22px;
+    color: #252525;
+    line-height: 1.5;
+
+    background-color: #efeada;
+    border: solid;
+    border-color: #FAF4EE;
+    border-radius: 25px;
+    width: 900px;
+    margin-left: 280px;
+    margin-top: 30px;
+    padding: 10px;   
+}
+
+.historieoverskrift {
+    font-size: 40px;
+    font-family: Herkules;
+    color: #BD5737;    
+}
+
+.begyndelse {
+    font-size: 28px;
+    font-family: Herkules;
+    color: #BD5737; 
+}
+
+.sygemelding {
+    font-size: 28px;
+    font-family: Herkules;
+    color: #BD5737; 
+}
+
+
+
+/* ------------------Mindfulness------------------ */
+.forfatterAS {
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+
+.forfatterAS:hover {
+    transform: translateX(-10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out; 
+}
+
+.mindfulnesstekst{
+    font-family: crushed;
+    font-size: 22px;
+    color: #252525;
+    line-height: 1.5;
+
+    background-color: #efeada;
+    border: solid;
+    border-color: #FAF4EE;
+    border-radius: 25px;
+    width: 900px;
+    margin-left: 280px;
+    margin-top: 30px;
+    padding: 10px;   
+}
+
+.mindoverskrift {
+    font-size: 40px;
+    font-family: Herkules;
+    color: #daa500;    
+}
+
+.bodyscan {
+    font-size: 32px;
+    font-family: Herkules;
+    color: #daa500; 
+} 
+
+.video1 {
+    border-radius: 25px;
+    border: solid 6px;
+    border-color: #daa500;
+    float: left;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+.video1:hover {
+    transform: translateX(10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out; 
+}
+
+.video2 {
+    border-radius: 25px;
+    border: solid 6px;
+    border-color: #daa500; 
+    float: right;
+    margin-right: 110px;
+    -webkit-transition: 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+}
+.video2:hover {
+    transform: translateX(-10px);
+    transition: 250ms ease-in-out;
+    -webkit-transition: 250ms ease-in-out; 
+}
+
+
+/* ------------------Footer------------------ */ 
+.footer {
+    font-family: Herkules;
+    font-size: 27px;
+    color: #252525;
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+   
+    margin-left: -10px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+
+    background-color: #FAF4EE;
+    height: 70px;
+    width: 1407px;
+}
